@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom Currency Converter</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>💱 Currency Converter</h1>
+    <input type="number" id="amount" placeholder="Enter amount" />
+
+    <div class="dropdown-container">
+      <div class="custom-dropdown" id="fromDropdown">
+        <div class="selected">Select Currency</div>
+        <div class="options"></div>
+      </div>
+      <div class="custom-dropdown" id="toDropdown">
+        <div class="selected">Select Currency</div>
+        <div class="options"></div>
+      </div>
+    </div>
+
+    <button id="convertBtn">Convert</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
