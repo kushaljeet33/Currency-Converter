@@ -79,7 +79,6 @@ const currencyToCountry = {
       optionsDiv.appendChild(option);
     });
   
-    // Toggle dropdown
     dropdown.querySelector(".selected").addEventListener("click", () => {
       const isVisible = optionsDiv.style.display === "block";
       document.querySelectorAll(".options").forEach(opt => opt.style.display = "none");
